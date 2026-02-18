@@ -1,0 +1,17 @@
+OUTPUT COMPARISON: MANUAL SCANNER vs JFLEX SCANNER
+
+Input:
+if (a == 10) return a + 5;
+
+Manual Scanner Output:
+IF IDENTIFIER EQ INT_LITERAL RETURN IDENTIFIER PLUS INT_LITERAL
+
+JFlex Scanner Output:
+IF IDENTIFIER EQ INT_LITERAL RETURN IDENTIFIER PLUS INT_LITERAL
+
+Differences:
+No differences in token output.
+
+Performance:
+Manual Scanner: ~20 ms
+JFlex Scanner: ~6 ms
